@@ -5,6 +5,9 @@ public class Main {
 
         Thread n1 = new Thread(G1);
         Thread n2 = new Thread(G2);
+
+        n1.setPriority(Thread.MAX_PRIORITY);
+
         n1.start();
         n2.start();
     }

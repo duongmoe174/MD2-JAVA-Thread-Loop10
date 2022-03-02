@@ -26,7 +26,6 @@ public class NumberGenerator implements Runnable {
                 System.out.println(i);
                 Thread.sleep(500);
                 System.out.println("Hashcode is: " + hashCode());
-
             }
         }
         catch (InterruptedException e) {
